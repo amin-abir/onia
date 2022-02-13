@@ -1,0 +1,82 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 991px) {
+
+.slicknav_menu{ 
+    display:block;
+}
+.menu-bar {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.slicknav_nav .slicknav_arrow {
+    border: 1px solid #888;
+    padding: 2px 10px;
+    text-align: right;
+    float: right;
+}
+a.slicknav_arrow.onia-carrow {
+    margin-right: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ul.slicknav_nav.slicknav_hidden.mhide {
+    display: none;
+}
+ul.slicknav_nav.slicknav_hidden {
+    height: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.slicknav_nav li {
+    display: block;
+    border-bottom: 1px solid #555;
+}
+h1 {
+    font-size: 35px;
+}
+h1.page-title {
+    font-size: 20px;
+}
+h2 {
+    font-size: 28px;
+}
+nav#site-navigation {
+    display:none;
+}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+h1 {
+    font-size: 35px;
+}
+h1.page-title {
+    font-size: 24px;
+}
+h2 {
+    font-size: 30px;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 479px) {
+.header-search-form {
+    right: 0;
+}
+
+}
