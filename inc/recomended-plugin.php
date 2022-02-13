@@ -61,27 +61,6 @@ function onia_register_required_plugins()
 	 */
 	$plugins = array(
 
-
-		array(
-			'name'      => esc_html__('Click To Top', 'onia'),
-			'slug'      => 'click-to-top',
-			'required'  => false,
-		),
-		array(
-			'name'      => esc_html__('Easy Share', 'onia'),
-			'slug'      => 'easy-share-solution',
-			'required'  => false,
-		),
-		array(
-			'name'      => esc_html__('MG Posts Display', 'onia'),
-			'slug'      => 'magical-posts-display',
-			'required'  => false,
-		),
-		array(
-			'name'      => esc_html__('MG Elementor', 'onia'),
-			'slug'      => 'magical-addons-for-elementor',
-			'required'  => false,
-		),
 		array(
 			'name'      => esc_html__('Gallery Box', 'onia'),
 			'slug'      => 'gallery-box',
