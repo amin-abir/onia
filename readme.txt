@@ -1,16 +1,16 @@
 === Onia ===
 
-Contributors: nalam
+Contributors: amin7
 Tags: two-columns, blog, portfolio, education, right-sidebar, custom-background, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
 Requires PHP: 5.6
 Requires at least: 5.0
 Tested up to: 5.9
-Stable tag: 1.0.2
+Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://opensource.org/licenses/gpl-2.0.php
 
 == Description ==
-Onia is a premium portfolio WordPress theme with a clean and minimalistic design. It features a responsive layout, post formats and lots of flexible options that make it easy to customize to your needs. It's perfect for freelancers, designers, developers, photographers artists and all other professionals. Portfolio X is also a creative WordPress theme. It is not only a unique portfolio theme, but also a multi-purpose theme that can be used for a wide range of websites such as portfolio, personal blog, business, photography, online store, etc.
+Onia is a minimal WordPress theme with a creative and minimalistic design. It features a responsive layout, post formats and lots of flexible options that make it easy to customize to your needs. It's perfect for freelancers, designers, developers for their knowledge sharing. Onia is also a creative WordPress theme. It is not only a unique portfolio theme, but also a multi-purpose theme that can be used for a wide range of websites such as portfolio, personal blog, business, photography, online store, etc.
 
 == Installation ==
 
@@ -20,7 +20,6 @@ Onia is a premium portfolio WordPress theme with a clean and minimalistic design
 
 == Copyright ==
 
-Onia WordPress Theme, Copyright 2021 Noor alam
 Onia is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
@@ -63,9 +62,6 @@ Source: https://pxhere.com/en/photo/815849
 
 == Changelog ==
 
-= 1.0.2 =
-* Added new style for header
-* Added new style for menu
 
 = 1.0.0 =
 * Initial release

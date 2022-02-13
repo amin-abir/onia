@@ -35,7 +35,7 @@ function onia_intro_section_output()
                 <h5><?php echo esc_html($onia_intro_subtitle); ?></h5>
               <?php endif; ?>
               <?php if ($onia_intro_title) : ?>
-                <h1><?php echo esc_html($onia_intro_title); ?> <br><span id="type1"><?php echo esc_html($onia_intro_designation); ?></span></h1>
+                <h1><?php echo esc_html($onia_intro_title); ?> <br><span id="type1" class="highlight"><?php echo esc_html($onia_intro_designation); ?></span></h1>
               <?php endif; ?>
               <?php if ($onia_intro_desc) : ?>
                 <p><?php echo esc_html($onia_intro_desc); ?></p>
