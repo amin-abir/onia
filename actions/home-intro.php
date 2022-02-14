@@ -12,11 +12,10 @@ function onia_intro_section_output()
 {
   $onia_dfimgh = get_template_directory_uri() . '/assets/img/hero.png';
   $onia_intro_img = get_theme_mod('onia_intro_img', $onia_dfimgh);
-  $onia_intro_subtitle = get_theme_mod('onia_intro_subtitle', __('WELCOME TO MY WORLD', 'onia'));
-  $onia_intro_title = get_theme_mod('onia_intro_title', __('Hi, I\'m Jone Doe', 'onia'));
-  $onia_intro_designation = get_theme_mod('onia_intro_designation', __('a Designer', 'onia'));
+  $onia_intro_title = get_theme_mod('onia_intro_title', __('This is Onia Lauren', 'onia'));
+  $onia_my_job = get_theme_mod('onia_my_job', __('A Data', 'onia'));
   $onia_intro_desc = get_theme_mod('onia_intro_desc');
-  $onia_btn_text_one = get_theme_mod('onia_btn_text_one', __('Hire me', 'onia'));
+  $onia_btn_text_one = get_theme_mod('onia_btn_text_one', __('facebook', 'onia'));
   $onia_btn_url_one = get_theme_mod('onia_btn_url_one', '#');
   $onia_btn_text_two = get_theme_mod('onia_btn_text_two', __('github', 'onia'));
   $onia_btn_url_two = get_theme_mod('onia_btn_url_two', '#');
@@ -31,11 +30,9 @@ function onia_intro_section_output()
           <div class="col-lg-6">
 
             <div class="content">
-              <?php if ($onia_intro_subtitle) : ?>
-                <h5><?php echo esc_html($onia_intro_subtitle); ?></h5>
-              <?php endif; ?>
+              
               <?php if ($onia_intro_title) : ?>
-                <h1><?php echo esc_html($onia_intro_title); ?> <br><span id="type1" class="highlight"><?php echo esc_html($onia_intro_designation); ?></span></h1>
+                <h1><?php echo esc_html($onia_intro_title); ?> <br><span id="type1" class="highlight"><?php echo esc_html($onia_my_job); ?></span></h1>
               <?php endif; ?>
               <?php if ($onia_intro_desc) : ?>
                 <p><?php echo esc_html($onia_intro_desc); ?></p>

@@ -92,7 +92,7 @@ function onia_customize_register($wp_customize)
     $wp_customize->add_section('onia_intro', array(
         'title' => __('Portfolio Intro Settings', 'onia'),
         'capability'     => 'edit_theme_options',
-        'description'     => __('Portfoli profile Intro Settings', 'onia'),
+        'description'     => __('Portfolio profile Intro Settings', 'onia'),
         'panel'    => 'onia_settings',
 
     ));
@@ -111,21 +111,9 @@ function onia_customize_register($wp_customize)
             'settings' => 'onia_intro_img',
         )
     ));
-    $wp_customize->add_setting('onia_intro_subtitle', array(
-        'default' => __('WELCOME TO MY WORLD', 'onia'),
-        'capability'     => 'edit_theme_options',
-        'type'           => 'theme_mod',
-        'sanitize_callback' => 'sanitize_text_field',
-        'transport' => 'refresh',
-    ));
-    $wp_customize->add_control('onia_intro_subtitle', array(
-        'label'      => __('Intro Subtitle', 'onia'),
-        'section'    => 'onia_intro',
-        'settings'   => 'onia_intro_subtitle',
-        'type'       => 'text',
-    ));
+   
     $wp_customize->add_setting('onia_intro_title', array(
-        'default' => __('Hi, I\'m Jone Doe', 'onia'),
+        'default' => __('This is Onia Lauren', 'onia'),
         'capability'     => 'edit_theme_options',
         'type'           => 'theme_mod',
         'sanitize_callback' => 'sanitize_text_field',
@@ -137,17 +125,17 @@ function onia_customize_register($wp_customize)
         'settings'   => 'onia_intro_title',
         'type'       => 'text',
     ));
-    $wp_customize->add_setting('onia_intro_designation', array(
-        'default' => __('a Designer', 'onia'),
+    $wp_customize->add_setting('onia_my_job', array(
+        'default' => __('A Data Storyteller', 'onia'),
         'capability'     => 'edit_theme_options',
         'type'           => 'theme_mod',
         'sanitize_callback' => 'sanitize_text_field',
         'transport' => 'refresh',
     ));
-    $wp_customize->add_control('onia_intro_designation', array(
-        'label'      => __('Designation', 'onia'),
+    $wp_customize->add_control('onia_my_job', array(
+        'label'      => __('What I do', 'onia'),
         'section'    => 'onia_intro',
-        'settings'   => 'onia_intro_designation',
+        'settings'   => 'onia_my_job',
         'type'       => 'text',
     ));
     $wp_customize->add_setting('onia_intro_desc', array(

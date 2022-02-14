@@ -23,7 +23,7 @@ if ( is_active_sidebar( 'sidebar-1' ) && $onia_blog_layout != 'fullwidth' ) {
 get_header();
 ?>
 
-		<div class="<?php echo esc_attr($onia_blog_container); ?> mt-5 mb-5 pt-5 pb-5">
+		<div class="<?php echo esc_attr($onia_blog_container); ?> mt-5 mb-5 pt-5 pb-5 blog-home">
 			<div class="row">
 			<?php if ( is_active_sidebar( 'sidebar-1' ) && $onia_blog_layout == 'leftside' ): ?>
 				<div class="col-lg-3">
