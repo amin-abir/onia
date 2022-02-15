@@ -15,7 +15,7 @@ $onia_categories = get_the_category();
 ?>
 <div class="col-lg-4 mb-4">
 	<article id="post-<?php the_ID(); ?>" <?php post_class('onia-list-item'); ?>>
-			<div class="grid-blog-item p-3">
+			<div class="grid-blog-item">
 				<?php if( has_post_thumbnail() ): ?>
 				<div class="grid-img">
 					<a href="<?php the_permalink(); ?>">
@@ -30,13 +30,16 @@ $onia_categories = get_the_category();
 							<a  class="blog-categrory" href="<?php echo esc_url(get_category_link($onia_category)); ?>"><?php echo esc_html($onia_category->name); ?></a>
 						</div>
 				<?php endif; ?>
-						<div class="col-md-6 me-auto text-end grid-meta">
-							<p><?php echo esc_html( get_the_date('M j Y')); ?></p>
-						</div>
+						
 					</div>
 
 				<?php the_title( '<h2 class="entry-title grid-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); ?>
-				<a class="read-more-btn" href="<?php the_permalink(); ?>"><?php esc_html_e( 'Read More ','onia'); ?> <i class="fas fa-arrow-right"></i></a>
+				<div class="me-auto grid-meta">
+							<p><?php echo esc_html( get_the_date('M j Y')); ?></p>
+							<a class="read-more-btn" href="<?php the_permalink(); ?>"><?php esc_html_e( 'Read More ','onia'); ?> <i class="fas fa-arrow-right"></i></a>
+						</div>
+						
+				
 				</div>
 			</div>
 	</article><!-- #post-<?php the_ID(); ?> -->

@@ -539,9 +539,9 @@ article.post,
 .archive-header,
 .search-header,
 .pagination .nav-links a {
-  border-radius: 5px;
-  box-shadow: var(--shadow-white-3);
-  background: var(--gradient-box-w);
+ 
+  box-shadow: 0 4px 37px 0 rgb(0 0 0 / 8%);
+  background:#fff;
 }
 .onia-text-list a.onia-readmore {
   display: inline-block;
@@ -583,21 +583,25 @@ h2.entry-title {
 h2.entry-title.grid-title {
   font-size: 20px;
 }
+.grid-blog-item {
+  padding:7px;
+}
+
 .grid-blog-item .grid-img img {
-  transition: 0.5s;
-  transform: scale(1);
+  width: auto;
+  overflow: hidden;
 }
 .grid-blog-item .grid-img {
   overflow: hidden;
 }
-.grid-blog-item:hover .grid-img img {
-  transform: scale(1.1);
-}
+
 .grid-meta {
   font-size: 12px;
+  display: flex;
 }
 .grid-deatls a.read-more-btn i {
   margin-left: 5px;
+  flex-direction: column;
 }
 .grid-deatls a.read-more-btn {
   font-size: 15px;
@@ -772,7 +776,7 @@ section#home {
 }
 
 .highlight {
-  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=f75757);
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=05D0EB);
   margin: -2px -6px;
   padding:  2px  6px;
 }
