@@ -1,7 +1,7 @@
 <?php
 /*
-*
-* Home intro section for portfolix section
+
+ Home intro section for portfolix section
 *
 *
 */
@@ -38,13 +38,13 @@ function onia_intro_section_output()
                 <p><?php echo esc_html($onia_intro_desc); ?></p>
               <?php endif; ?>
               <?php if ($onia_btn_url_one) : ?>
-                <a href="<?php echo esc_url($onia_btn_url_one); ?>" class="btn btn-hero"><?php echo esc_html($onia_btn_text_one); ?></a>
+                <a href="<?php echo esc_url($onia_btn_url_one); ?>" class="btn btn-hero hover-underline-animation"><?php echo esc_html($onia_btn_text_one); ?></a>
               <?php endif; ?>
               <?php if ($onia_btn_url_two) : ?>
-                <a href="<?php echo esc_url($onia_btn_url_two); ?>" class="btn btn-hero"><?php echo esc_html($onia_btn_text_two); ?></a>
+                <a href="<?php echo esc_url($onia_btn_url_two); ?>" class="btn btn-hero hover-underline-animation"><?php echo esc_html($onia_btn_text_two); ?></a>
               <?php endif; ?>
               <?php if ($onia_btn_url_three) : ?>
-                <a href="<?php echo esc_url($onia_btn_url_three); ?>" class="btn btn-hero"><?php echo esc_html($onia_btn_text_three); ?></a>
+                <a href="<?php echo esc_url($onia_btn_url_three); ?>" class="btn btn-hero hover-underline-animation"><?php echo esc_html($onia_btn_text_three); ?></a>
               <?php endif; ?>
             </div>
 

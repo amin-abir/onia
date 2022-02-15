@@ -90,9 +90,9 @@ function onia_customize_register($wp_customize)
 
     //onia Home intro
     $wp_customize->add_section('onia_intro', array(
-        'title' => __('Portfolio Intro Settings', 'onia'),
+        'title' => __('Site Intro Settings', 'onia'),
         'capability'     => 'edit_theme_options',
-        'description'     => __('Portfolio profile Intro Settings', 'onia'),
+        'description'     => __('Blog Intro Settings', 'onia'),
         'panel'    => 'onia_settings',
 
     ));
@@ -152,14 +152,14 @@ function onia_customize_register($wp_customize)
         'type'       => 'textarea',
     ));
     $wp_customize->add_setting('onia_btn_text_one', array(
-        'default' => __('Hire me', 'onia'),
+        'default' => __('Facebook', 'onia'),
         'capability'     => 'edit_theme_options',
         'type'           => 'theme_mod',
         'sanitize_callback' => 'sanitize_text_field',
         'transport' => 'postMessage',
     ));
     $wp_customize->add_control('onia_btn_text_one', array(
-        'label'      => __('Button one text', 'onia'),
+        'label'      => __('Social Btn One', 'onia'),
         'section'    => 'onia_intro',
         'settings'   => 'onia_btn_text_one',
         'type'       => 'text',
@@ -173,21 +173,21 @@ function onia_customize_register($wp_customize)
         'transport' => 'refresh',
     ));
     $wp_customize->add_control('onia_btn_url_one', array(
-        'label'      => __('Button one url', 'onia'),
+        'label'      => __('Social account URL', 'onia'),
         'description'      => __('Keep url empty for hide this button', 'onia'),
         'section'    => 'onia_intro',
         'settings'   => 'onia_btn_url_one',
         'type'       => 'url',
     ));
     $wp_customize->add_setting('onia_btn_text_two', array(
-        'default'     => __('Download CV', 'onia'),
+        'default'     => __('Github', 'onia'),
         'capability'     => 'edit_theme_options',
         'type'           => 'theme_mod',
         'sanitize_callback' => 'sanitize_text_field',
         'transport' => 'postMessage',
     ));
     $wp_customize->add_control('onia_btn_text_two', array(
-        'label'      => __('Button two text', 'onia'),
+        'label'      => __('Social Btn Two', 'onia'),
         'section'    => 'onia_intro',
         'settings'   => 'onia_btn_text_two',
         'type'       => 'text',
@@ -201,10 +201,39 @@ function onia_customize_register($wp_customize)
         'transport' => 'refresh',
     ));
     $wp_customize->add_control('onia_btn_url_two', array(
-        'label'      => __('Button two url', 'onia'),
+        'label'      => __('Social account URL', 'onia'),
         'description'      => __('Keep url empty for hide this button', 'onia'),
         'section'    => 'onia_intro',
         'settings'   => 'onia_btn_url_two',
+        'type'       => 'text',
+    ));
+
+    $wp_customize->add_setting('onia_btn_text_three', array(
+        'default'     => __('Reddit', 'onia'),
+        'capability'     => 'edit_theme_options',
+        'type'           => 'theme_mod',
+        'sanitize_callback' => 'sanitize_text_field',
+        'transport' => 'postMessage',
+    ));
+    $wp_customize->add_control('onia_btn_text_three', array(
+        'label'      => __('Social Btn Three', 'onia'),
+        'section'    => 'onia_intro',
+        'settings'   => 'onia_btn_text_three',
+        'type'       => 'text',
+    ));
+
+    $wp_customize->add_setting('onia_btn_url_three', array(
+        'default' => '#',
+        'capability'     => 'edit_theme_options',
+        'type'           => 'theme_mod',
+        'sanitize_callback' => 'esc_url_raw',
+        'transport' => 'refresh',
+    ));
+    $wp_customize->add_control('onia_btn_url_three', array(
+        'label'      => __('Social account URL', 'onia'),
+        'description'      => __('Keep url empty for hide this button', 'onia'),
+        'section'    => 'onia_intro',
+        'settings'   => 'onia_btn_url_three',
         'type'       => 'text',
     ));
 

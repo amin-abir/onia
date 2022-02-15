@@ -49,12 +49,7 @@ img {
 
 .btn {
   display: inline-block;
-  padding: 1rem 3rem;
-  border-radius: 1rem;
-  box-shadow: var(--shadow-white-3);
-  background: var(--gradient-box-w);
-  transition: 0.5s;
-  color: var(--black);
+  color: #6d6d6d;
 }
 
 .btn.outline {
@@ -63,7 +58,7 @@ img {
   background-color: transparent;
   border: 2px solid var(--color-primary);
 }
-.btn:hover {
+/* .btn:hover {
   background: var(--gradient-red-hover);
   color: #fff;
   transform: translateY(-3px);
@@ -71,7 +66,32 @@ img {
 .btn.outline:hover {
   background-color: var(--color-primary);
   color: var(--white);
+} */
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+
 }
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0054A1;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 input[type="search"],
 input[type="email"],
 input[type="url"],
@@ -767,8 +787,12 @@ section#home {
 
 .home .btn-hero {
   margin-top: 2rem;
-  font-size: 16px;
-  margin-right: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight:500;
+  font-family: "Ubuntu", sans-serif;
+
 }
 .home .hero-img img {
   width: 100%;

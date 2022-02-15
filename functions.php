@@ -160,7 +160,7 @@ function onia_fonts_url()
 	$font_families = array();
 
 	$font_families[] = 'Ubuntu:300,400,500';
-	$font_families[] = 'Nunito:200,300,400,500';
+	$font_families[] = 'Nunito:200,300,400,500,600';
 
 	$query_args = array(
 		'family' => urlencode(implode('|', $font_families)),
