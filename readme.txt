@@ -54,7 +54,10 @@ Source: https://github.com/ComputerWolf/SlickNav
 Image for theme screenshot, self created
 License: CC0 1.0 Universal (CC0 1.0)
 
-
+*Blog Images*
+Source: 1. https://www.pexels.com/photo/white-skyblue-electric-guitar-and-other-blue-materials-wall-decor-164880/
+        2. https://www.pexels.com/photo/light-bulb-on-white-panel-1166643/
+        3. https://www.pexels.com/photo/pink-flower-on-white-background-3825880/
 * Screenshot Header image
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://pxhere.com/en/photo/815849

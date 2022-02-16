@@ -15,7 +15,13 @@ else:
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="xpost-item shadow py-5 mb-5">
 
-		<div class="xpost-text p-3">
+
+		<div class="spost-text p-3">
+		<div class="entry-meta spost-date">
+						<?php
+						onia_posted_on();
+						?>
+					</div><!-- .entry-meta -->
 			<header class="entry-header pb-4">
 				<?php
 				if ( is_singular() ) :
@@ -26,9 +32,8 @@ else:
 
 				if ( 'post' === get_post_type() ) :
 					?>
-					<div class="entry-meta">
+					<div class="entry-meta spost-author">
 						<?php
-						onia_posted_on();
 						onia_posted_by();
 						?>
 					</div><!-- .entry-meta -->
