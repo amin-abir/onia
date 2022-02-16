@@ -149,12 +149,12 @@ a,
 .entry-footer span,
 .entry-meta a,
 .ghead-meta {
-  color: var(--color-primary);
+  color: #0054A1;
 }
 
 .pagination .nav-links a:hover,
 .pagination .nav-links span {
-  background-color: var(--color-primary);
+  background-color: #0054A1;
 }
 
 /*Primery color*/
@@ -174,9 +174,7 @@ a:hover,
 #
 */
 /*header style one*/
-header.px-hstyle1 {
-  box-shadow: 0 5px 15px rgb(0 0 0 / 12%);
-}
+
 .pxm-style1 .main-navigation ul li a {
   text-transform: uppercase;
   font-size: 14px;
@@ -207,14 +205,16 @@ header.px-hstyle1 {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  margin: 10px 0;
+  padding: 10px 0;
   justify-content: center;
   text-align: center;
-  padding: 20px 0;
 }
 .brand-text .site-title {
-  text-transform: uppercase;
-  font-size: 60px;
+  text-transform: capitalize;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-weight:600;
 }
 .head-info {
   margin-left: auto;
@@ -232,7 +232,7 @@ header.px-hstyle1 {
   max-height: 150px;
 }
 .brand-text .site-title {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .brand-text .site-description {
@@ -240,7 +240,7 @@ header.px-hstyle1 {
   font-style: italic;
 }
 .onia-logo-section {
-  border-bottom: 2px solid #fbf7ef;
+  background-color: #fff;
 }
 /* Main Menu style */
 .slicknav_menu {
@@ -248,8 +248,14 @@ header.px-hstyle1 {
 }
 .menu-bar {
   position: relative;
-  box-shadow: 0 0 5px rgb(0 0 0 / 12%);
-  margin: 5px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 5px 0;
+  background-color: #fff;
+}
+
+.menu-bar{
+  padding:15px;
 }
 
 div#onia-menu ul {
@@ -268,9 +274,13 @@ div#onia-menu ul {
   position: relative;
 }
 .main-navigation ul li a {
-  color: #222;
+  color: #1b1c1f;
   display: block;
-  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
 }
 .main-navigation ul li:after {
   background: #fff none repeat scroll 0 0;
@@ -532,7 +542,6 @@ header.entry-header.page-header {
 /*posts List style*/
 .onia-text-list,
 aside section.widget,
-.menu-bar,
 article.post,
 .post-navigation,
 .comments-area,

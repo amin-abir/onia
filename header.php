@@ -31,13 +31,9 @@
 				</div>
 			<?php endif; ?>
 			<?php
-		$onia_main_menu_style = get_theme_mod('onia_main_menu_style','style1');
 		
-		if( $onia_main_menu_style == 'style1' ){
-			do_action('onia_header_style_one');
-		}else{
-			do_action('onia_header_style_two');
-		}
+			do_action('onia_header_style');
+		
 	?>
 	</header><!-- #masthead -->
 

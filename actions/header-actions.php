@@ -57,7 +57,7 @@ add_action('onia_header_logo','onia_header_logo_output');
 
 
 // header style 
-function onia_header_style_two(){
+function onia_header_style(){
 	
 ?>
 	<div class="onia-logo-section">
@@ -70,13 +70,13 @@ function onia_header_style_two(){
 
 	<div class="menu-bar text-center">
 		<div class="container">
-			<div class="onia-container menu-inner">
+			<div class="onia-container menu-inner hover-underline-animation">
 				<?php do_action( 'onia_main_menu'); ?>
 			</div>
 		</div>
 	</div>
 <?php
 }
-add_action('onia_header_style_two','onia_header_style_two');
+add_action('onia_header_style','onia_header_style');
 
 

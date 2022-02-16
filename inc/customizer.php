@@ -58,41 +58,17 @@ function onia_customize_register($wp_customize)
     ));
 
     $wp_customize->add_panel('onia_settings', array(
-        'priority'       => 50,
+        'priority'       => 40,
         'title'          => __('Onia Theme settings', 'onia'),
-        'description'    => __('All Onia theme settings', 'onia'),
+        'description'    => __('Onia theme settings', 'onia'),
     ));
-    $wp_customize->add_section('onia_header', array(
-        'title' => __('Onia Header Settings', 'onia'),
-        'capability'     => 'edit_theme_options',
-        'description'     => __('Onia theme header settings', 'onia'),
-        'panel'    => 'onia_settings',
-
-    ));
-    $wp_customize->add_setting('onia_main_menu_style', array(
-        'default'        => 'style1',
-        'capability'     => 'edit_theme_options',
-        'type'           => 'theme_mod',
-        'sanitize_callback' => 'onia_sanitize_select',
-        'transport' => 'refresh',
-    ));
-    $wp_customize->add_control('onia_main_menu_style', array(
-        'label'      => __('Main Menu Style', 'onia'),
-        'description' => __('You can set the menu style one or two. ', 'onia'),
-        'section'    => 'onia_header',
-        'settings'   => 'onia_main_menu_style',
-        'type'       => 'select',
-        'choices'    => array(
-            'style1' => __('Style One', 'onia'),
-            'style2' => __('Style Two', 'onia'),
-        ),
-    ));
+   
 
     //onia Home intro
     $wp_customize->add_section('onia_intro', array(
-        'title' => __('Site Intro Settings', 'onia'),
+        'title' => __('Onia Profile Intro', 'onia'),
         'capability'     => 'edit_theme_options',
-        'description'     => __('Blog Intro Settings', 'onia'),
+        'description'     => __(' Intro Settings', 'onia'),
         'panel'    => 'onia_settings',
 
     ));
