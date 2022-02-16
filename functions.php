@@ -159,7 +159,7 @@ function onia_fonts_url()
 
 	$font_families = array();
 
-	$font_families[] = 'Ubuntu:300,400,500';
+	$font_families[] = 'Jost:300,400,500,600,700';
 	$font_families[] = 'Nunito:200,300,400,500,600';
 
 	$query_args = array(
@@ -182,7 +182,7 @@ function onia_scripts()
 	wp_enqueue_style('onia-google-font', onia_fonts_url(), array(), null);
 	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), '5.0.1', 'all');
 	wp_enqueue_style('slicknav', get_template_directory_uri() . '/assets/css/slicknav.css', array(), '1.0.10', 'all');
-	wp_enqueue_style('fontawesome', get_template_directory_uri() . '/assets/css/all.css', array(), '5.15.3');
+	wp_enqueue_style('fontawesome', get_template_directory_uri() . '/assets/css/font-awesome.css', array(), '5.15.3');
 	wp_enqueue_style('onia-block-style', get_template_directory_uri() . '/assets/css/block.css', array(), ONIA_VERSION);
 	wp_enqueue_style('onia-default-style', get_template_directory_uri() . '/assets/css/default-style.css', array(), ONIA_VERSION);
 	wp_enqueue_style('onia-main-style', get_template_directory_uri() . '/assets/css/onia-css.css', array(), ONIA_VERSION);
@@ -230,9 +230,6 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 
-// if (is_admin()) {
-// 	require_once trailingslashit(get_template_directory()) . 'inc/about/about.php';
-// }
 /**
  * Load Jetpack compatibility file.
  */

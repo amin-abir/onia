@@ -25,8 +25,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
 }
 a {
   transition: 0.5s;
@@ -577,11 +577,14 @@ article.post,
 
 h2.entry-title a,
 h2.entry-title {
-  color: #1b1b1b;
+  color: #1c1d1f;
+  text-decoration: none;
 }
 /*posts grid style*/
 h2.entry-title.grid-title {
-  font-size: 20px;
+  font-size: 23px;
+  text-align: center;
+  padding:10px 0px;
 }
 .grid-blog-item {
   padding:7px;
@@ -594,24 +597,38 @@ h2.entry-title.grid-title {
 .grid-blog-item .grid-img {
   overflow: hidden;
 }
-
+.grid-deatls{
+  padding: 9px 27px 27px 12px;
+}
 .grid-meta {
   font-size: 12px;
-  display: flex;
+  text-align: center;
+}
+.grid-meta .blog-categrory{
+  text-align: center;
 }
 .grid-deatls a.read-more-btn i {
   margin-left: 5px;
-  flex-direction: column;
+}
+.me-auto.grid-meta p{
+ float: left;
+ font-family: 13px;
+ text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+  color: #6d6d6d;
 }
 .grid-deatls a.read-more-btn {
-  font-size: 15px;
-  transition: 0.4s;
-  color: var(--gray);
+  font-size: 13px;
+  color: #6d6d6d;
+  text-transform: uppercase;
+  font-weight: 600;
+  float:right;
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
 }
-.grid-deatls a.read-more-btn:hover {
-  letter-spacing: 2px;
-  color: var(--color-primary);
-}
+
 .xpost-item.shadow.pb-3.mb-5 {
   width: 100%;
 }
@@ -769,23 +786,23 @@ section#home {
   font-size: 60px;
   font-weight: 500;
   line-height: 75px;
-  color: #636363;
+  color: #0054A1;
 }
 .home .content h1 span {
   transition: 0.4s;
 }
 
 .highlight {
-  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=05D0EB);
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=a5a5a5);
   margin: -2px -6px;
   padding:  2px  6px;
 }
 
 .home .content p {
-  color: var(--color-gray-2);
+  color: #1c1d1f;
   margin-top: 2rem;
   transition: 0.4s;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 30px;
 }
 
@@ -794,8 +811,8 @@ section#home {
   font-size: 14px;
   margin-right: 10px;
   text-transform: uppercase;
-  font-weight:500;
-  font-family: "Ubuntu", sans-serif;
+  font-weight:600;
+  font-family: "Jost", sans-serif;
 
 }
 .home .hero-img img {

@@ -56,29 +56,7 @@ add_action('onia_header_logo','onia_header_logo_output');
 
 
 
-
-// header style one
-function onia_header_style_one(){
-?>
-	<div class="container-fluid pxm-style1">
-        <div class="navigation mx-4">
-            <div class="d-flex">
-                <div class="pxms1-logo">
-                  <?php do_action('onia_header_logo'); ?>
-                </div>
-                <div class="pxms1-menu ms-auto">
-                  <?php do_action('onia_main_menu'); ?>
-				</div>
-            </div>
-        </div>
-    </div>
-
-
-<?php
-}
-add_action('onia_header_style_one','onia_header_style_one');
-
-// header style one
+// header style 
 function onia_header_style_two(){
 	
 ?>

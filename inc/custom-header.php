@@ -25,7 +25,7 @@ function onia_custom_header_setup() {
 				'default-image'      => '',
 				'default-text-color' => '000000',
 				'width'              => 1800,
-				'height'             => 250,
+				'height'             => 200,
 				'flex-height'        => true,
 			)
 		)
