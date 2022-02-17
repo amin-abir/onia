@@ -190,7 +190,6 @@ function onia_scripts()
 	wp_enqueue_style('onia-responsive-style', get_template_directory_uri() . '/assets/css/responsive.css', array(), ONIA_VERSION);
 	
 
-	//wp_enqueue_script('masonry');
 	wp_enqueue_script('onia-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), ONIA_VERSION, true);
 	wp_enqueue_script('slicknav', get_template_directory_uri() . '/assets/js/jquery.slicknav.js', array('jquery'), '1.0.10', true);
 	wp_enqueue_script('onia-scripts', get_template_directory_uri() . '/assets/js/onia-scripts.js', array('jquery'), ONIA_VERSION, true);
@@ -237,13 +236,9 @@ if (defined('JETPACK__VERSION')) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-// Load all actions file
-require get_template_directory() . '/actions/header-actions.php';
+// Load actions file
+require get_template_directory() . '/actions/header.php';
 require get_template_directory() . '/actions/home-intro.php';
 
 
-/**
- * Add tem plugin activation
- */
-require get_template_directory() . '/inc/class-tgm-plugin-activation.php';
-require get_template_directory() . '/inc/recomended-plugin.php';
+

@@ -110,7 +110,6 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 [type="search"]:focus,
@@ -127,7 +126,9 @@ a#clickTop {
   border: 1px solid #ccc;
   padding: 5px 20px;
   vertical-align: middle;
-  background: var(--color-primary);
+  background: #0054A1;
+  font-size:15px;
+  text-transform: uppercase;
   color: #fff;
   transition: 0.5s;
 }
@@ -752,6 +753,29 @@ footer.entry-footer span a {
   font-size: 14px;
 }
 
+footer.entry-footer .cat-links{
+  background-color:#0054A1;
+  padding:2px 6px;
+}
+
+footer.entry-footer .cat-links a{
+  color:#fff;
+  font-family: "Jost", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer.entry-footer .tags-links a{
+  color:#0054A1;
+  font-family: "Jost", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 footer.entry-footer span:last-child {
   border: none;
 }
@@ -761,7 +785,6 @@ footer.entry-footer span:last-child {
 .navigation.post-navigation .nav-links {
   display: flex;
   flex-flow: row wrap;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   padding: 20px 10px;
   margin-bottom: 3rem;
 }
@@ -769,9 +792,23 @@ footer.entry-footer span:last-child {
 .navigation.post-navigation .nav-links .nav-next {
   margin-left: auto;
 }
+.nav-links .nav-previous .nav-subtitle, .nav-links .nav-next .nav-subtitle{
+  font-size:15px;
+  color:#0054A1;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-links a{
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  color:#1b1c1f;
+  font-size:16px;
+}
 
 .comments-area {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   padding: 20px 20px;
   margin-bottom: 20px;
 }
@@ -780,6 +817,7 @@ footer.entry-footer span:last-child {
 }
 .comments-area .comment-form-comment textarea {
   width: 100%;
+  border: 1px solid #d9dbde;
 }
 /*404 style*/
 .xmain-404 {

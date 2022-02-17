@@ -13,7 +13,7 @@ else:
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="xpost-item shadow py-5 mb-5">
+	<div class="xpost-item py-5 mb-5">
 
 
 		<div class="spost-text p-3">
