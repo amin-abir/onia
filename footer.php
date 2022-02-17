@@ -19,17 +19,20 @@
 	<footer id="colophon" class="site-footer pt-3 pb-3">
 		<div class="container">
 			<div class="site-info text-center">
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'onia' ) ); ?>">
+
+			<?php
+                    /* translator: Theme name */
+                    printf(esc_html__('%1$s', 'onia'), 'Onia');
+                ?>
+				<span class="sep"> | </span>
+				
 					<?php
 					/* translators: %s: CMS name, i.e. WordPress. */
-					printf( esc_html__( 'Proudly powered by %s', 'onia' ), 'WordPress' );
+					printf( esc_html__( 'Powered by %s', 'onia' ), 'WordPress' );
 					?>
-				</a>
-				<span class="sep"> | </span>
-				<?php
-                    /* translators: 1: Theme name, 2: Theme author. */
-                    printf(esc_html__('%1$s by %2$s.', 'onia'), '<a href="https://wpthemespace.com/product/onia/">Onia</a>', 'Wp Theme Space');
-                ?>
+				
+				
+			
 					
 			</div><!-- .site-info -->
 		</div><!-- .container -->

@@ -860,7 +860,7 @@ footer.entry-footer span:last-child {
 # Footer style
 */
 .site-footer {
-  box-shadow: 0 0 5px rgb(0 0 0 / 12%);
+  border-top: 1px solid #0054A1;
 }
 a#clickTop {
   right: 5px !important;
