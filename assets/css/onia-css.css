@@ -842,6 +842,30 @@ footer.entry-footer span:last-child {
   width: 100%;
   border: 1px solid #d9dbde;
 }
+.comment-reply-link{
+  font-family: Jost, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+}
+
+.comment-author img {
+  border-radius: 0!important;
+  height: 45px;
+  width: 45px;
+}
+.comment-author.vcard a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.comment-metadata a{
+  text-decoration: none;
+  color: #1b1c1f;
+}
+
 /*404 style*/
 .xmain-404 {
   height: 100vh;
