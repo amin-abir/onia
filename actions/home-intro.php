@@ -13,8 +13,8 @@ function onia_intro_section_output()
   $onia_dfimgh = get_template_directory_uri() . '/assets/img/hero.png';
   $onia_intro_img = get_theme_mod('onia_intro_img', $onia_dfimgh);
   $onia_intro_title = get_theme_mod('onia_intro_title', __('This is Onia Lauren', 'onia'));
-  $onia_my_job = get_theme_mod('onia_my_job', __('A Data', 'onia'));
-  $onia_intro_desc = get_theme_mod('onia_intro_desc');
+  $onia_my_job = get_theme_mod('onia_my_job', __('An Urban Storyteller', 'onia'));
+  $onia_intro_desc = get_theme_mod('onia_intro_desc', __('A great storyteller is devoted to a cause beyond self. That mission is embodied in his stories, which capture and express values that he believes in and wants others to adopt as their own.', 'onia'));
   $onia_btn_text_one = get_theme_mod('onia_btn_text_one', __('facebook', 'onia'));
   $onia_btn_url_one = get_theme_mod('onia_btn_url_one', '#');
   $onia_btn_text_two = get_theme_mod('onia_btn_text_two', __('github', 'onia'));

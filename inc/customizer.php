@@ -102,7 +102,7 @@ function onia_customize_register($wp_customize)
         'type'       => 'text',
     ));
     $wp_customize->add_setting('onia_my_job', array(
-        'default' => __('A Data Storyteller', 'onia'),
+        'default' => __('An Urban Storyteller', 'onia'),
         'capability'     => 'edit_theme_options',
         'type'           => 'theme_mod',
         'sanitize_callback' => 'sanitize_text_field',
@@ -115,7 +115,7 @@ function onia_customize_register($wp_customize)
         'type'       => 'text',
     ));
     $wp_customize->add_setting('onia_intro_desc', array(
-        'default' => '',
+        'default' => __('A great storyteller is devoted to a cause beyond self. That mission is embodied in his stories, which capture and express values that he believes in and wants others to adopt as their own.','onia'),
         'capability'     => 'edit_theme_options',
         'type'           => 'theme_mod',
         'sanitize_callback' => 'wp_kses_post',
@@ -185,7 +185,7 @@ function onia_customize_register($wp_customize)
     ));
 
     $wp_customize->add_setting('onia_btn_text_three', array(
-        'default'     => __('Reddit', 'onia'),
+        'default'     => __('WordPress', 'onia'),
         'capability'     => 'edit_theme_options',
         'type'           => 'theme_mod',
         'sanitize_callback' => 'sanitize_text_field',
