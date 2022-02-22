@@ -70,8 +70,8 @@ function onia_header_style(){
 
 	<div class="menu-bar text-center">
 		<div class="container">
-			<div class="onia-container menu-inner hover-underline-animation">
-				<?php do_action( 'onia_main_menu'); ?>
+			<div class="onia-container menu-inner ">
+			<?php do_action( 'onia_main_menu'); ?>
 			</div>
 		</div>
 	</div>

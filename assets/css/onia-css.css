@@ -233,6 +233,10 @@ a:hover,
   text-transform: capitalize;
 }
 
+.brand-text .site-title a {
+  text-decoration: none;
+}
+
 .brand-text .site-description {
   font-size: 17px;
   font-style: italic;
@@ -279,6 +283,7 @@ div#onia-menu ul {
   font-size: 14px;
   font-family: 'Jost', sans-serif;
   font-weight: 500;
+  padding: 0px 15px;
 }
 .main-navigation ul li:after {
   background: #fff none repeat scroll 0 0;
@@ -348,6 +353,25 @@ div#onia-menu ul {
 .main-navigation ul li:focus > a {
   color: #0054A1;
 }
+/* .main-navigation ul li:hover > a{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.main-navigation ul li a {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0054A1;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+} */
+
+
 
 .main-navigation ul li:hover ul,
 .main-navigation ul li.hover ul {

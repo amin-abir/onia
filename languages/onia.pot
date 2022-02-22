@@ -27,9 +27,6 @@ msgstr ""
 msgid ", "
 msgstr ""
 
-#: actions/home-intro.php:17 inc/customizer.php:141
-msgid "a Designer"
-msgstr ""
 
 #: functions.php:143
 msgid "Add widgets here."
@@ -39,23 +36,23 @@ msgstr ""
 msgid "All Onia theme settings"
 msgstr ""
 
-#: inc/customizer.php:174
-msgid "Button one text"
+#: inc/customizer.php:138
+msgid "Social Btn One"
 msgstr ""
 
-#: inc/customizer.php:188
-msgid "Button one url"
+#: inc/customizer.php:152
+msgid "Social account URL"
 msgstr ""
 
-#: inc/customizer.php:202
-msgid "Button two text"
+#: inc/customizer.php:166
+msgid "Social Btn Two"
 msgstr ""
 
-#: inc/customizer.php:216
-msgid "Button two url"
+#: inc/customizer.php:180
+msgid "Social account URL"
 msgstr ""
 
-#: inc/customizer.php:282
+#: inc/customizer.php:274
 msgid "Classic Style"
 msgstr ""
 
@@ -83,11 +80,11 @@ msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
 #: inc/customizer.php:148
-msgid "Designation"
+msgid "What I do"
 msgstr ""
 
 #: actions/home-intro.php:21 inc/customizer.php:195
-msgid "Download CV"
+msgid "Github"
 msgstr ""
 
 #. %s: Name of current post. Only visible to screen readers
@@ -105,7 +102,7 @@ msgid "Grid Style"
 msgstr ""
 
 #: actions/home-intro.php:16 inc/customizer.php:128
-msgid "Hi, I'm Jone Doe"
+msgid "This is Onia Lauren"
 msgstr ""
 
 #: inc/customizer.php:326
@@ -121,7 +118,7 @@ msgid "Hide Site Tagline Only? "
 msgstr ""
 
 #: actions/home-intro.php:19 inc/customizer.php:167
-msgid "Hire me"
+msgid "WordPress"
 msgstr ""
 
 #: footer.php:17
@@ -129,11 +126,11 @@ msgid "https://wordpress.org/"
 msgstr ""
 
 #. Author URI of the theme
-msgid "https://wpthemespace.com/"
+msgid "https://profiles.wordpress.org/amin7/"
 msgstr ""
 
 #. URI of the theme
-msgid "https://wpthemespace.com/product/onia/"
+msgid "http://onia.blogwc.com/"
 msgstr ""
 
 #: inc/customizer.php:109
@@ -144,11 +141,8 @@ msgstr ""
 msgid "Intro Description"
 msgstr ""
 
-#: inc/customizer.php:122
-msgid "Intro Subtitle"
-msgstr ""
 
-#: inc/customizer.php:135
+#: inc/customizer.php:99
 msgid "Intro Title"
 msgstr ""
 

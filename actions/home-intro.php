@@ -10,7 +10,7 @@
 
 function onia_intro_section_output()
 {
-  $onia_dfimgh = get_template_directory_uri() . '/assets/img/hero.png';
+  $onia_dfimgh = get_template_directory_uri() . '/assets/img/hero.jpg';
   $onia_intro_img = get_theme_mod('onia_intro_img', $onia_dfimgh);
   $onia_intro_title = get_theme_mod('onia_intro_title', __('This is Onia Lauren', 'onia'));
   $onia_my_job = get_theme_mod('onia_my_job', __('An Urban Storyteller', 'onia'));

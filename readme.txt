@@ -59,6 +59,8 @@ Source: 1. https://www.pexels.com/photo/grayscale-photo-of-tree-near-to-a-body-o
         2. https://www.pexels.com/photo/photo-of-bride-s-arm-s-with-mehndi-tattoo-2486420/
         3. https://www.pexels.com/photo/pink-flower-on-white-background-3825880/
         4. https://pixabay.com/photos/woman-model-portrait-fashion-back-1462986/
+        5. https://pixabay.com/photos/guitar-music-instrument-isolated-823615/
+        6. https://pixabay.com/photos/tree-willow-winter-crow-bird-2532679/
 
 
 
