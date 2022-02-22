@@ -195,7 +195,7 @@ msgid "No Sidebar"
 msgstr ""
 
 #. Author of the theme
-msgid "Noor Alam"
+msgid "amin7"
 msgstr ""
 
 #: template-parts/content-none.php:14
@@ -225,19 +225,16 @@ msgid "Portfoli profile Intro Settings"
 msgstr ""
 
 #: inc/customizer.php:93
-msgid "Portfolio Intro Settings"
+msgid "Onia Profile Intro"
 msgstr ""
 
 #. Description of the theme
 msgid ""
-"Portfolio X is a premium portfolio WordPress theme with a clean and "
+"Onia is a creative WordPress theme with a clean and "
 "minimalistic design. It features a responsive layout, post formats and lots "
 "of flexible options that make it easy to customize to your needs. It's "
-"perfect for freelancers, designers, developers, photographers artists and "
-"all other professionals. Portfolio X is also a creative WordPress theme. It "
-"is not only a unique portfolio theme, but also a multi-purpose theme that "
-"can be used for a wide range of websites such as portfolio, personal blog, "
-"business, photography, online store, etc."
+"perfect for blogger, reviewer, travellers, developers, author and "
+"all other professionals. Onia is a creative WordPress theme."
 msgstr ""
 
 #. Name of the theme
@@ -295,7 +292,7 @@ msgstr ""
 #. %s: CMS name, i.e. WordPress.
 #: footer.php:20
 #, php-format
-msgid "Proudly powered by %s"
+msgid "Powered by %s"
 msgstr ""
 
 #: template-parts/content-grid.php:39 template-parts/content-list.php:46
@@ -375,18 +372,10 @@ msgstr ""
 msgid "Upload Profile Image"
 msgstr ""
 
-#: actions/home-intro.php:15 inc/customizer.php:115
-msgid "WELCOME TO MY WORLD"
-msgstr ""
-
 #: inc/customizer.php:302
 msgid "You can set standard container or full width container for page. "
 msgstr ""
 
 #: inc/customizer.php:240
 msgid "You can set standard container or full width container. "
-msgstr ""
-
-#: inc/customizer.php:81
-msgid "You can set the menu style one or two. "
 msgstr ""
